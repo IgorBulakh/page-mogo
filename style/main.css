@@ -1,0 +1,115 @@
+:root {
+  /* background color */
+  --white-background-color: #ffffff;
+  --aqua-background-color: #38c7ad;
+
+  /* text color */
+  --white-text-color: #ffffff;
+  --aqua-text-color: #38c7ad;
+  --red-text-color: #ee4444;
+  --dark-shadow-text: #333333;
+  --light-shadow-text: #b3b3b3;
+}
+
+body {
+  background: var(--white-background-color);
+  color: var(--light-shadow-text);
+
+  font-family: Roboto, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  color: var(--dark-shadow-text);
+  text-transform: uppercase;
+}
+
+/* header  */
+/* logo */
+.logo {
+  color: var(--aqua-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 31px;
+  /* identical to box height */
+}
+
+/* nav-sait  */
+
+.sait-nav .link {
+  color: var(--aqua-text-color);
+
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--red-text-color);
+}
+
+/* main block  */
+
+/* main title section work */
+.main-title {
+  font-size: 24px;
+  font-family: Mr Dafoe;
+  text-transform: none;
+  text-align: center;
+}
+
+.section-title {
+  color: var(--dark-shadow-text);
+
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* title of kategori list */
+.subtitle .tite {
+  font-weight: 200;
+}
+
+.section-text {
+  text-align: center;
+}
+
+.author-title .title {
+  text-align: center;
+}
+
+/* footer  */
+/* author  */
+.author {
+  color: var(--dark-shadow-text);
+
+  font-size: 10px;
+  /* or 171% */
+}
+/* color next author */
+.author-color {
+  color: var(--red-text-color);
+}
+/* button  */
+.button {
+  color: var(--white-text-color);
+  background: var(--aqua-background-color);
+
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
