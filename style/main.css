@@ -176,6 +176,10 @@ body {
   margin-right: 0;
 } */
 
+.flex-element .title.title-start {
+  text-align: start;
+}
+
 /* text-sections-teams */
 
 .container > .describe-teams {
