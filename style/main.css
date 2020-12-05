@@ -201,7 +201,7 @@ body {
 
 /* profil-block */
 .profil-block {
-  width: 380px;
+  /* width: 380px; */
   margin-right: 30px;
 }
 
@@ -209,10 +209,28 @@ body {
   margin-left: 0;
 }
 
-.profil-block .profil {
+.profil-block .tumb-img {
+  margin-bottom: 30px;
+  width: 380px;
+  height: 470px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.tumb-img .profil {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: center; */
+}
+.tumb-img .position-man {
+  object-position: 20% 50%;
+}
+
+/* .profil-block .profil {
   width: 100%;
   height: 470px;
-}
+} */
 
 /* title of kategori list */
 .subtitle .tite {
@@ -220,9 +238,6 @@ body {
 }
 
 /* img-sections */
-.subtitle .profil {
-  margin-bottom: 30px;
-}
 
 /* footer  */
 /* author  */
